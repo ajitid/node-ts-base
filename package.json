@@ -1,0 +1,22 @@
+{
+  "name": "node-ts-base",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/main.ts",
+    "build": "tsc",
+    "format": "prettier --write src/**/*.{js,ts,json}",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.5",
+    "prettier": "^3.3.3",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=20.16.0",
+    "pnpm": ">=9.6.0"
+  }
+}
